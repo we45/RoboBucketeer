@@ -1,0 +1,11 @@
+www.infogalactic.com
+appserver1.infogalactic.com
+bgetr.infogalactic.com
+ea.infogalactic.com
+fork1.infogalactic.com
+new.infogalactic.com
+news.infogalactic.com
+edit.news.infogalactic.com
+phase2.infogalactic.com
+technews.infogalactic.com
+edit.technews.infogalactic.com

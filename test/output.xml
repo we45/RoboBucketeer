@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180712 13:05:25.866" generator="Robot 3.0.2 (Python 2.7.12 on linux2)">
+<suite source="/home/umar/Desktop/RobotFramework-Dev/RoboBucketeer/test/RoboBucketeer.robot" id="s1" name="RoboBucketeer">
+<test id="s1-t1" name="Run Bucketeer against the target">
+<kw name="Enumerate Subdomain" library="RoboBucketeer">
+<arguments>
+<arg>${TARGET_DOMAIN}</arg>
+<arg>${SUBLIST3R_REPORT}</arg>
+<arg>${YAML_REPORT}</arg>
+</arguments>
+<msg timestamp="20180712 13:05:35.327" level="INFO">[94m[-] Enumerating subdomains now for infogalactic.com[0m
+[93m[-] verbosity is enabled, will show the subdomains results in realtime[0m
+[92m[-] Searching now in Baidu..[0m
+[92m[-] Searching now in Yahoo..[0m
+[92m[-] Searching now in Google..[0m
+[92m[-] Searching now in Bing..[0m
+[92m[-] Searching now in Ask..[0m
+[92m[-] Searching now in Netcraft..[0m
+[92m[-] Searching now in DNSdumpster..[0m
+[92m[-] Searching now in Virustotal..[0m
+[92m[-] Searching now in ThreatCrowd..[0m
+[92m[-] Searching now in SSL Certificates..[0m
+[92m[-] Searching now in PassiveDNS..[0m
+[93m[-] Saving results to file: [0m[91m/home/umar/Desktop/RobotFramework-Dev/RoboBucketeer/test/infogalactic.txt[0m
+[93m[-] Total Unique Subdomains Found: 11[0m
+[92mwww.infogalactic.com[0m
+[92mappserver1.infogalactic.com[0m
+[92mbgetr.infogalactic.com[0m
+[92mea.infogalactic.com[0m
+[92mfork1.infogalactic.com[0m
+[92mnew.infogalactic.com[0m
+[92mnews.infogalactic.com[0m
+[92medit.news.infogalactic.com[0m
+[92mphase2.infogalactic.com[0m
+[92mtechnews.infogalactic.com[0m
+[92medit.technews.infogalactic.com[0m
+Trying for: www.infogalactic.com
+
+Trying for: appserver1.infogalactic.com
+
+Trying for: bgetr.infogalactic.com
+
+Trying for: ea.infogalactic.com
+
+Trying for: fork1.infogalactic.com
+
+Trying for: new.infogalactic.com
+
+Trying for: news.infogalactic.com
+
+Trying for: edit.news.infogalactic.com
+
+Trying for: phase2.infogalactic.com
+
+Trying for: technews.infogalactic.com
+
+Trying for: edit.technews.infogalactic.com
+
+open file: /home/umar/Desktop/RobotFramework-Dev/RoboBucketeer/test/infogalactic.yaml</msg>
+<status status="PASS" endtime="20180712 13:05:35.328" starttime="20180712 13:05:25.979"></status>
+</kw>
+<status status="PASS" endtime="20180712 13:05:35.329" critical="yes" starttime="20180712 13:05:25.979"></status>
+</test>
+<status status="PASS" endtime="20180712 13:05:35.331" starttime="20180712 13:05:25.868"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="RoboBucketeer" pass="1">RoboBucketeer</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
